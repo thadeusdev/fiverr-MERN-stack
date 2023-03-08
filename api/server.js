@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import userRoute from './routes/user.route.js';
+import gigRoute from './routes/g'
 
 const app = express()
 dotenv.config()
