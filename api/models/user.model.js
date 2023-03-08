@@ -8,28 +8,28 @@ const userSchema = new Schema({
         unique:true
     },
     email:{
-        type:string,
+        type:String,
         required:true,
         unque:true,
     },
     password:{
-        type:string,
+        type:String,
         required:true,
     },
     img:{
-        type:string,
+        type:String,
         required:false,
     },
     country:{
-        type:string,
+        type:String,
         required:true,
     },
     phone:{
-        type:string,
+        type:String,
         required:false,
     },
     desc:{
-        type:string,
+        type:String,
         required:false,
     },
     isSeller:{
